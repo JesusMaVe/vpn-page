@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Aprendiendo Boostrap</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top" id="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <span class="fw-bold text-primary">Absolut</span> vpn
+        </a>
+        <div class="navbar-collapse">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#inicio">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#caracteristicas">Características</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tarjetas">Mas informacion</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <button id="theme-toggle" class="btn me-2">
+              <i id="theme-icon" class="bi bi-moon-fill"></i>
+            </button>
+            <button class="btn me-2">Iniciar sesión</button>
+            <button class="btn btn-primary">Registrarse</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section id="inicio" class="bg-primary p-5 mb-2">
+      <div class="container text-center text-white">
+        <h1 class="display-3">Absolute</h1>
+        <p class="lead mb-5">
+          Protege tu privacidad, explora el mundo sin fronteras.
+        </p>
+      </div>
+    </section>
+
+    <section id="caracteristicas" class="mt-5">
+      <div class="container pb-4">
+        <h2 class="text-center mb-5">Características Principales</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="p-4 rounded shadow-lg">
+              <i class="bi bi-lock-fill fs-1"></i>
+              <h4>Conexión segura</h4>
+              <p class="lead">
+                Garantiza una conexión segura y encriptada en todo momento,
+                protegiendo tu privacidad online.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="p-4 rounded shadow">
+              <i class="bi bi-globe-americas fs-1"></i>
+              <h4>Acceso global</h4>
+              <p class="lead">
+                Accede a contenido sin restricciones geográficas. Conéctate a
+                servidores en todo el mundo.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="p-4 rounded shadow">
+              <i class="bi bi-lightning-charge-fill fs-1"></i>
+              <h4>Velocidad mejorada</h4>
+              <p class="lead">
+                Disfruta de una navegación rápida sin ralentizaciones, gracias a
+                nuestros servidores optimizados.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="p-4 rounded shadow">
+              <i class="bi bi-shield fs-1"></i>
+              <h4>Seguridad avanzada</h4>
+              <p class="lead">
+                Protección de tus datos con encriptación de nivel militar y
+                políticas estrictas de no registro.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="p-4 rounded shadow">
+              <i class="bi bi-incognito fs-1"></i>
+              <h4>Protección de privacidad</h4>
+              <p class="lead">
+                Navega de forma anónima, asegurando que tus actividades online
+                permanezcan privadas.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="p-4 rounded shadow">
+              <i class="bi bi-gear fs-1"></i>
+              <h4>Fácil configuración</h4>
+              <p class="lead">
+                Configura tu VPN en segundos con una interfaz sencilla y fácil
+                de usar para cualquier usuario.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="planes" class="mt-5">
+      <div class="container">
+        <h2 class="section-title text-center mb-5">Planes y Precios VPN</h2>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="table-responsive">
+              <table class="table table-hover table-bordered">
+                <thead>
+                  <tr>
+                    <th scope="col">Características</th>
+                    <th scope="col" class="text-center">Gratis</th>
+                    <th scope="col" class="text-center">Pro</th>
+                    <th scope="col" class="text-center">Empresa</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Conexión segura</th>
+                    <td class="text-center">Básico (128-bit)</td>
+                    <td class="text-center">Avanzado (256-bit)</td>
+                    <td class="text-center">
+                      Máxima seguridad (256-bit + extra capas)
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Acceso a servidores globales</th>
+                    <td class="text-center">1 País</td>
+                    <td class="text-center">50+ Países</td>
+                    <td class="text-center">100+ Países</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Velocidad</th>
+                    <td class="text-center">Lenta</td>
+                    <td class="text-center">Rápida</td>
+                    <td class="text-center">Ultra rápida</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Conexión simultánea</th>
+                    <td class="text-center">1 Dispositivo</td>
+                    <td class="text-center">5 Dispositivos</td>
+                    <td class="text-center">Ilimitado</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Soporte 24/7</th>
+                    <td class="text-center">❌</td>
+                    <td class="text-center">Email</td>
+                    <td class="text-center">
+                      Soporte 24/7 por chat + teléfono
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Precio mensual</th>
+                    <td class="text-center">Gratis</td>
+                    <td class="text-center">$12.99</td>
+                    <td class="text-center">$29.99</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"></th>
+                    <td class="text-center">
+                      <button class="btn btn-sm btn-outline-primary">
+                        Empezar
+                      </button>
+                    </td>
+                    <td class="text-center">
+                      <button class="btn btn-sm btn-primary">Comprar</button>
+                    </td>
+                    <td class="text-center">
+                      <button class="btn btn-sm btn-info">Contactar</button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div
+        id="carouselExampleSlidesOnly"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="assets/img/shield.png"
+              class="imgs"
+              alt="Seguridad de datos"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/img/res.png"
+              class="imgs"
+              alt="Acceso sin restricciones"
+            />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/sec.png" class="imgs" alt="Conexión segura" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <div class="container text-center">
+        <h2 class="section-title mb-4 mt-5">¿Preguntas? Contáctanos</h2>
+        <p class="mb-4">
+          Nuestro equipo de soporte está disponible para resolver todas tus
+          dudas
+        </p>
+        <button
+          type="button"
+          class="btn btn-primary btn-lg"
+          data-bs-toggle="modal"
+          data-bs-target="#contactModal"
+        >
+          Contactar con ventas
+        </button>
+
+        <div
+          class="modal fade"
+          id="contactModal"
+          tabindex="-1"
+          aria-labelledby="contactModalLabel"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="contactModalLabel">
+                  Formulario de contacto
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="nameInput" class="form-label">Nombre</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="nameInput"
+                      placeholder="Tu nombre"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="emailInput" class="form-label">Email</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="emailInput"
+                      placeholder="tu@email.com"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="messageInput" class="form-label">Mensaje</label>
+                    <textarea
+                      class="form-control"
+                      id="messageInput"
+                      rows="3"
+                      placeholder="¿En qué podemos ayudarte?"
+                    ></textarea>
+                  </div>
+                  <div class="form-check mb-3">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="privacyCheck"
+                    />
+                    <label class="form-check-label" for="privacyCheck">
+                      Acepto la política de privacidad
+                    </label>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Cerrar
+                </button>
+                <button type="button" class="btn btn-primary">
+                  Enviar mensaje
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="tarjetas" class="my-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Descubre nuestras características</h2>
+        <div class="row justify-content-center g-4">
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img
+                src="assets/img/sec.png"
+                alt="Seguridad de datos"
+                style="height: 300px; object-fit: cover"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Seguridad de Datos</h5>
+                <p class="card-text">
+                  Asegura tu conexión y protege tus datos con nuestra avanzada
+                  tecnología de encriptación.
+                </p>
+                <a href="#" class="btn btn-primary">Más información</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img
+                src="assets/img/res.png"
+                alt="Acceso sin restricciones"
+                style="height: 300px; object-fit: cover"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Acceso sin Restricciones</h5>
+                <p class="card-text">
+                  Desbloquea contenido en cualquier parte del mundo y disfruta
+                  de una experiencia sin límites.
+                </p>
+                <a href="#" class="btn btn-primary">Más información</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img
+                src="assets/img/shield.png"
+                alt="Conexión segura"
+                style="height: 300px; object-fit: cover"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Conexión Segura</h5>
+                <p class="card-text">
+                  Protege tu actividad online con nuestra encriptación avanzada
+                  para una navegación más segura.
+                </p>
+                <a href="#" class="btn btn-primary">Más información</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="py-4 mt-5">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-12 mb-3">
+            <h5>Absolute</h5>
+            <p>La solución definitiva para privacidad y seguridad</p>
+            <p>© 2025 Absolute Inc. Todos los derechos reservados.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
